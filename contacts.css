@@ -1,0 +1,35 @@
+body {
+    background-color: #cce6ff;
+}
+
+.container { 
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}  
+
+ .card {
+    background-color: #ffccff; 
+    overflow: scroll;
+    height: 400px;
+    width: 250px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+} 
+
+.letter{
+    background-color: rgb(236, 234, 234);
+    position: sticky;
+    top: 0;
+}
+
+.letter >p {
+    margin-left: 3px;
+}
+
+.names {
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
